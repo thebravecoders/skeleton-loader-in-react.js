@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.914a7826.chunk.css",
+    "main.js": "/static/js/main.52594fb0.chunk.js",
+    "main.js.map": "/static/js/main.52594fb0.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3742f174.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3742f174.js.map",
+    "static/js/2.d0f23e11.chunk.js": "/static/js/2.d0f23e11.chunk.js",
+    "static/js/2.d0f23e11.chunk.js.map": "/static/js/2.d0f23e11.chunk.js.map",
+    "static/js/3.1e31718e.chunk.js": "/static/js/3.1e31718e.chunk.js",
+    "static/js/3.1e31718e.chunk.js.map": "/static/js/3.1e31718e.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.914a7826.chunk.css.map": "/static/css/main.914a7826.chunk.css.map",
+    "static/js/2.d0f23e11.chunk.js.LICENSE.txt": "/static/js/2.d0f23e11.chunk.js.LICENSE.txt",
+    "static/media/kill-it.379fbae1.jpg": "/static/media/kill-it.379fbae1.jpg",
+    "static/media/love-alarm.b5e9ed94.jpg": "/static/media/love-alarm.b5e9ed94.jpg",
+    "static/media/luca-the-begg.a821ad0b.jpg": "/static/media/luca-the-begg.a821ad0b.jpg",
+    "static/media/my-name.afcb2856.jpg": "/static/media/my-name.afcb2856.jpg",
+    "static/media/penthouse.daeb124c.jpg": "/static/media/penthouse.daeb124c.jpg",
+    "static/media/vagabond.0fe56b3a.jpg": "/static/media/vagabond.0fe56b3a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3742f174.js",
+    "static/js/2.d0f23e11.chunk.js",
+    "static/css/main.914a7826.chunk.css",
+    "static/js/main.52594fb0.chunk.js"
+  ]
+}

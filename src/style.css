@@ -1,0 +1,125 @@
+:root{
+  --bg-color:#dddddd;
+  --card-color:#f7f1e3;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+  background-color: var(--bg-color);
+  font-family: Arial, Helvetica, sans-serif;
+
+  padding: 2rem;
+}
+
+.title{
+  font-size: 2rem;
+  padding: 2rem;
+}
+
+.card{
+  background-color: var(--card-color);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.card img{
+  width: 100%;
+  height: 14rem;
+  object-fit: cover;
+}
+
+.card .contents{
+  padding: 1rem;
+}
+
+.card h1{
+  font-size: 2rem;
+  margin-bottom: .5rem;
+}
+
+.card .year{
+  font-size: 1.2rem;
+  color: rgb(122,122,122);
+  margin-bottom: 1rem;
+}
+
+.card .desc{
+  font-size: 1.1rem;
+  line-height: 1.4;
+  color: rgb(116,116,116);
+}
+
+
+.kdrama-list{
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,24rem);
+  justify-content: center;
+  gap: 2rem;
+}
+
+
+.kdrama-list li{
+  background-color: var(--card-color);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.skeleton{
+  --color-skeleton:rgb(190,190,190);
+}
+
+.skeleton .card-img{
+  width: 100%;
+  height: 14rem;
+  background-color: var(--color-skeleton);
+}
+
+.skeleton h1{
+  max-width: 80%;
+  background-color: var(--color-skeleton);
+}
+
+.skeleton .year{
+  max-width: 60%;
+  background-color: var(--color-skeleton);
+}
+
+.skeleton .desc{
+  min-height: 7rem;
+  background-color: var(--color-skeleton);
+}
+
+
+.loading{
+  position: relative;
+  overflow: hidden;
+}
+
+
+.loading::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to left, transparent,rgb(216,216,216),transparent);
+  animation: loading-ans 1s linear infinite;
+}
+
+@keyframes loading-ans {
+    0%{
+      transform: translateX(-100%);
+    }
+    
+   100%{
+      transform: translateX(100%);
+    }
+}
